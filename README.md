@@ -7,7 +7,7 @@ A professional, clean, and responsive corporate website for APTYOU SERVICES PRIV
 - **Company Name:** APTYOU SERVICES PRIVATE LIMITED
 - **Domain:** aptyou.one
 - **Registered Address:** 15/367, Kurumbathur, Thirunavaya, Malappuram, Kerala, India - 676301
-- **Git Repository:** https://github.com/aptyouservices/aptyou-website.git
+- **Git Repository:** https://github.com/AptYou-Official/aptyou-website.git
 
 ## Website Structure
 
@@ -80,7 +80,7 @@ This website can be deployed to:
 
 1. Push code to GitHub (already done)
 2. Go to https://vercel.com
-3. Import repository: `aptyouservices/aptyou-website`
+3. Import repository: `AptYou-Official/aptyou-website`
 4. Deploy (no build settings needed for static site)
 5. Add custom domain: `aptyou.one`
 
