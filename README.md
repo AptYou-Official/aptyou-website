@@ -7,16 +7,19 @@ A professional, clean, and responsive corporate website for APTYOU SERVICES PRIV
 - **Company Name:** APTYOU SERVICES PRIVATE LIMITED
 - **Domain:** aptyou.one
 - **Registered Address:** 15/367, Kurumbathur, Thirunavaya, Malappuram, Kerala, India - 676301
-- **Git Repository:** https://github.com/apyouservices/aptyou-website.git
+- **Git Repository:** https://github.com/aptyouservices/aptyou-website.git
 
 ## Website Structure
 
 This is a static HTML website with the following pages:
 
-- **index.html** - Homepage with hero section, company overview, services preview, and CTAs
+- **index.html** - Homepage with hero section, company overview, products preview, and CTAs
 - **about.html** - About Us page with mission, vision, values, and company background
-- **services.html** - Services/Products page listing all offerings
+- **products.html** - Products page listing AptyRead and ANAR
+- **our-story.html** - Our Story page with company journey
 - **contact.html** - Contact page with full registered address, email, and contact form
+- **privacy.html** - Privacy Policy
+- **terms.html** - Terms & Conditions
 
 ## Design
 
@@ -53,10 +56,14 @@ This is a static HTML website with the following pages:
 aptyou-website/
 ├── index.html          # Homepage
 ├── about.html          # About Us page
-├── services.html       # Services page
+├── products.html       # Products page
+├── our-story.html      # Our Story page
 ├── contact.html        # Contact page
+├── privacy.html        # Privacy Policy
+├── terms.html          # Terms & Conditions
 ├── styles.css          # Main stylesheet
 ├── README.md           # This file
+├── DEPLOYMENT_GUIDE.md # Deployment guide
 ├── .gitignore          # Git ignore file
 ├── robots.txt          # SEO robots file
 └── sitemap.xml         # SEO sitemap
@@ -64,14 +71,20 @@ aptyou-website/
 
 ## Deployment
 
-This website is designed to be deployed on GoDaddy (aptyou.one). Simply upload all HTML files and the styles.css file to your web hosting directory.
+This website can be deployed to:
+- **Vercel** (Recommended - see DEPLOYMENT_GUIDE.md)
+- **GoDaddy** (Traditional hosting)
+- Any static hosting service
 
-### Deployment Steps
+### Quick Deploy to Vercel
 
-1. Upload all files to your web hosting root directory
-2. Ensure `index.html` is set as the default page
-3. Verify all links work correctly
-4. Test the contact form (requires backend integration for production)
+1. Push code to GitHub (already done)
+2. Go to https://vercel.com
+3. Import repository: `aptyouservices/aptyou-website`
+4. Deploy (no build settings needed for static site)
+5. Add custom domain: `aptyou.one`
+
+See `DEPLOYMENT_GUIDE.md` for detailed instructions.
 
 ## Contact Form
 
@@ -102,10 +115,10 @@ To update content:
 ## Support
 
 For website-related inquiries, please contact:
-- **Email:** info@aptyou.one
+- **Email:** support@aptyou.one
+- **Phone:** +91-90741 42163
 - **Website:** https://aptyou.one
 
 ---
 
-**Last Updated:** 2024
-
+**Last Updated:** 2025
